@@ -5,7 +5,7 @@
 
 const string1 = "My favorite dessert is jello";
 
-console.log(string1.indexOf('j'));
+console.log('The index of j is ' + string1.indexOf('j'));
 
 
 
@@ -32,7 +32,7 @@ console.log(string2cool);
 
 const string3 = "Na";
 
-// console.log(`${string3.repeat(4)} Batman!`);
+console.log(`${string3.repeat(4)} Batman!`);
 
 
 
@@ -45,10 +45,10 @@ const string3 = "Na";
 const fruit = "banana apple mango orange lemon kiwi watermelon grapes pear pineapple";
 
 const favFruit = 'mango';
-const index = fruit.indexOf(favFruit);
+const indexFruit = fruit.indexOf(favFruit);
 const lengthFruit = favFruit.length;
 
-console.log(fruit.slice(index,index+lengthFruit+1));
+console.log(fruit.slice(indexFruit,indexFruit+lengthFruit+1));
 
 
 /***************************************************
@@ -83,8 +83,8 @@ const string4 = "zEAWrTC9EgtxmK9w1";
 
 
 // a) Print the string length
-console.log('Length:', string4.length);
+console.log(`The length is ${string4.length}`);
 
 
 // b) Print the last character in the string
-console.log('Last character:', string4[string4.length-1]);
+console.log(`The last character is ${string4[string4.length-1]}`);
